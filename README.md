@@ -45,9 +45,11 @@ To tell the script where to display the map simply add an empty div element to t
       
       <div id="map">
       </div>
-
       
 There are more options in the Google Maps for Rails readme if you need them but this will do for a basic map. Don't worry about the markers for now. We'll get to those in a second. 
+
+The map:
+https://raw.githubusercontent.com/NickManos/Screenshots/master/map.png
 
 So we have a map but now need to display our users on it. First, we need to make sure our users have latitude and longitude attributes in the database stored as floats with a migration like this:
 
@@ -90,3 +92,4 @@ This will take our users and set the marker's lat/lng attributes from the latitu
 
 That's everything! You should now have a working map with your users displayed as points that can be moused over. From here you could add custom icons for each user to the map or have some of their info display when their icon is hovered over as can be seen in the screenshot below. The documentation on the Google Maps for Rails gem has information on other things you can accomplish with the map. Thanks for reading!
 
+https://raw.githubusercontent.com/NickManos/Screenshots/master/map_with_markers2.png
