@@ -1,6 +1,6 @@
 ## Google Maps with Ruby on Rails
 
-Google Maps is a amazing api that can give an app a ton of added functionality with a very small ammout of code.
+Google Maps is an amazing api that can give an app a ton of added functionality with a very small ammout of code.
 
 In this article I will show you what is necessary to get it running with Ruby on Rails and display your users on a map.
 
