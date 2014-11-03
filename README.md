@@ -16,8 +16,10 @@ We will use 2 gems to accomplish this:
 
 First off we need to install the gems listed above. For this simply add to your gemfile:
 
+```ruby
       gem "gmaps4rails"
       gem "geocoder"
+```
 
 Then remember to bundle install.
 
